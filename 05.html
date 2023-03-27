@@ -9,21 +9,37 @@
 <body>
     <form>
         <fieldset>
-            <h3>시작 그룹</h3>
-            <input id="newtab" type="radio" name="tab" value="new">
-            <label for="newtab">새 탭 페이지 열기</label></input><br>
-            <input id="stoptab" type="radio" name="tab" value="stop">
-            <label for="stoptab">중단한 위치에서 게속하기</label></input><br>
-            <input id="septab" type="radio" name="tab" value="sep">
-            <label for="septab">특정 페이지 또는 페이지 모음 열기</label></input>
-            <br>
-            <h3>개인정보 및 보안</h3>
-            <input id="ser1" type="checkbox" name="secu" value="ser">
-            <label for="ser1">동기화 및 서비스</label></input><br>
-            <input id="log1" type="checkbox" name="secu" value="log">
-            <label for="log1">로그인 허용</label></input><br>
-            <input id="page1" type="checkbox" name="secu" value="page">
-            <label for="page1">페이지 미리 로드</label></input>
+            <table>
+              <b>시작 그룹</b>
+            
+                <tr>
+                    <td><input id="newtab" type="radio" name="tab" value="new"></td>
+                    <td><label for="newtab">새 탭 페이지 열기</label></input></td>
+                </tr>
+                <tr>
+                    <td><input id="stoptab" type="radio" name="tab" value="stop"></td>
+                    <td><label for="stoptab">중단한 위치에서 게속하기</label></input></td>
+                </tr>
+                <tr>
+                    <td><input id="septab" type="radio" name="tab" value="sep"></td>
+                    <td><label for="septab">특정 페이지 또는 페이지 모음 열기</label></input></td>
+                </tr>
+                </table>
+                <table>
+                <b>개인정보 및 보안</b>             
+                <tr>
+                    <td><input id="ser1" type="checkbox" name="secu" value="ser"></td>
+                    <td><label for="ser1">동기화 및 서비스</label></input></td>
+                </tr>
+                    <td><input id="log1" type="checkbox" name="secu" value="log"></td>
+                    <td><label for="log1">로그인 허용</label></input></td>
+                </tr>                
+                <tr>
+                    <td><input id="page1" type="checkbox" name="secu" value="page"></td>
+                    <td><label for="page1">페이지 미리 로드</label></input></td>
+                </tr>               
+                </tr>
+            </table>
         </fieldset>
     </form>
 </body>
